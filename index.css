@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    height: 90%;
+    width: 90%;
+    margin-left:80px ;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: black
+    
+}
+.nav{
+    display: grid;
+    grid-template-columns: 3fr 6fr 2fr;
+    align-items: center;
+}
+.nav-left h2{
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+    padding-left: 30px;
+}
+.nav-middle ul{
+    display: flex;
+
+}
+.nav-middle ul li{
+    list-style: none;
+    width: 100px;
+}
+.nav-middle ul li a{
+    text-decoration: none;
+    color: rgb(219, 216, 216);  
+}
+.nav-right ul{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    padding-right: 40px;
+}
+.nav-right ul li{
+    list-style: none;
+    margin-right: 20px;   
+}
+.nav-right ul li a{
+    text-decoration: none;
+    color: rgb(219, 216, 216);   
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+}
+.content .image{
+    width: 55%;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.content .image img{
+    width: 600px;
+    margin-left: 40px;
+}
+.content .text {
+    padding-right: 40px;
+    width: 50%;
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+
+}
+.content .text h2{
+    font-size: 40px;
+    color: white;
+}
+.content .text p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: gainsboro;
+    margin-bottom: 40px;
+}
+.btn button{
+    padding: 10px 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.btn .red{
+    background-color: rgb(207, 87, 87);
+}
+.btn .blue{
+    background-color: rgb(110, 110, 224);
+}
+.footer{
+    width: 90%;
+    margin: auto;  
+    
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+    
+}
+.footer ul li{
+    padding-bottom: 20px;
+    margin-right: 30px;
+    list-style: none;
+    color: white;
+    font-size: 18px;
+    
+    
+}
+.fa-brands{
+    margin-right: 10px;
+
+}
